@@ -12,6 +12,8 @@
     <bean id="test" class="com.falcon.dao.TestDaoImpl"></bean>
     <!--<bean id="dao1" class="com.falcon.dao.UserDaoImpl1"></bean>-->
     <bean id="service" class="com.falcon.service.UserServiceImpl">
+        <!-- setter -->
+        <!--<property name="dao" ref="dao"></property>-->
     </bean>
 
 </beans>
